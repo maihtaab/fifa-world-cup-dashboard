@@ -1,44 +1,41 @@
 # FIFA World Cup Dashboard 🌍⚽
 
-An interactive dashboard built with Dash, Plotly, and Pandas to visualize the history of FIFA World Cup winners and runner-ups from 1930 to 2022.
+![Dashboard Preview](fifascreenshot.png)
 
-## Features
+An interactive and aesthetic dashboard built using **Dash**, **Plotly**, and **Pandas** to visualize FIFA World Cup winners and runner-ups from 1930 to 2022.
 
-- 📊 Choropleth map of countries that have won the FIFA World Cup
-- 🏆 View how many times a selected country has won
-- 📅 Select a year to see the winner and runner-up
+---
 
-## Dataset
+## 💻 Features
+- 📊 **Choropleth Map** of World Cup wins by country
+- 🏆 View how many times each country has won
+- 📅 Select a year to see that year’s winner and runner-up
+- ✨ Styled with pastel theme and clean layout
 
-Data source: [Wikipedia - FIFA World Cup finals](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals)
+---
 
-Included as `fifa_world_cup_finals.csv`
+## 📁 Dataset
+Source: [Wikipedia – FIFA World Cup finals](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals)  
+File: `fifa_world_cup_finals.csv`
 
-## Getting Started
+---
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/maihtaab/fifa-world-cup-dashboard.git
-cd fifa-world-cup-dashboard
-```
+## 🚀 How to Run
 
-### 2. Install dependencies
+### 1. Install requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the app
+### 2. Run the app
 ```bash
 python fifa_dashboard.py
 ```
 
-### 4. Open in browser
-Go to `http://0.0.0.0:8050/` in your browser to view the dashboard.
-
-## Deployment
-
-You can deploy this app for free using [Render](https://render.com) or any cloud platform that supports Python web services.
+### 3. Open in browser
+Go to:  
+[http://0.0.0.0:8050/](http://0.0.0.0:8050/)
 
 ---
 
-Made with ❤️ using Dash and Plotly
+## 🌸 Made with love using Dash + Plotly
