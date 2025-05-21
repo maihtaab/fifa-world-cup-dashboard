@@ -18,7 +18,7 @@ Included as `fifa_world_cup_finals.csv`
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/fifa-world-cup-dashboard.git
+git clone https://github.com/maihtaab/fifa-world-cup-dashboard.git
 cd fifa-world-cup-dashboard
 ```
 
