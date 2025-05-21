@@ -33,7 +33,7 @@ python fifa_dashboard.py
 ```
 
 ### 4. Open in browser
-Go to `http://127.0.0.1:8050/` in your browser to view the dashboard.
+Go to `http://0.0.0.0:8050/` in your browser to view the dashboard.
 
 ## Deployment
 
