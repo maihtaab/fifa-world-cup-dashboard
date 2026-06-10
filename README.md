@@ -45,12 +45,3 @@ http://0.0.0.0:8050/
 ```
 
 in your browser.
-
-## Skills Demonstrated
-
-* Data cleaning and transformation
-* Interactive dashboard development
-* Data visualization
-* Geospatial visualization using choropleth maps
-* User-driven analytics with dynamic filtering
-
