@@ -2,40 +2,55 @@
 
 ![Dashboard Preview](fifascreenshot.png)
 
-An interactive and aesthetic dashboard built using **Dash**, **Plotly**, and **Pandas** to visualize FIFA World Cup winners and runner-ups from 1930 to 2022.
+An interactive dashboard built with Dash and Plotly to visualize FIFA World Cup results from 1930 to 2022.
 
----
+## Overview
 
-## 💻 Features
-- 📊 **Choropleth Map** of World Cup wins by country
-- 🏆 View how many times each country has won
-- 📅 Select a year to see that year’s winner and runner-up
-- ✨ Styled with pastel theme and clean layout
+This project explores historical FIFA World Cup data through interactive visualizations and user-driven filtering. The dashboard allows users to analyze World Cup winners, runner-up teams, and country-level tournament success through an intuitive web interface.
 
----
+The goal of the project was to demonstrate data visualization, dashboard development, and interactive analytics using Python.
 
-## 📁 Dataset
-Source: [Wikipedia – FIFA World Cup finals](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals)  
-File: `fifa_world_cup_finals.csv`
+## Features
 
----
+* Interactive choropleth map displaying World Cup victories by country
+* Country-level analysis of tournament wins
+* Year-based filtering to view World Cup winners and runners-up
+* Dynamic dashboard components powered by Dash callbacks
+* Responsive and user-friendly interface
 
-## 🚀 How to Run
+## Technologies
 
-### 1. Install requirements
+* Python
+* Pandas
+* Plotly
+* Dash
+
+## Dataset
+
+Source: FIFA World Cup Finals historical data (1930–2022)
+
+The dataset contains information about tournament years, winning nations, and runner-up nations, which are aggregated and visualized throughout the dashboard.
+
+## Running the Dashboard
+
 ```bash
 pip install -r requirements.txt
-```
-
-### 2. Run the app
-```bash
 python fifa_dashboard.py
 ```
 
-### 3. Open in browser
-Go to:  
-[http://0.0.0.0:8050/](http://0.0.0.0:8050/)
+Then open:
 
----
+```text
+http://0.0.0.0:8050/
+```
 
-## 🌸 Made with love using Dash + Plotly
+in your browser.
+
+## Skills Demonstrated
+
+* Data cleaning and transformation
+* Interactive dashboard development
+* Data visualization
+* Geospatial visualization using choropleth maps
+* User-driven analytics with dynamic filtering
+
